@@ -41,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C5750AE28071C570011D820 /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				A8D2DD2B2807178000F1D4EC /* Survey.storyboard */,
+				A8D2DD2D2807188F00F1D4EC /* Survey.swift */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		8C5750AF28071C790011D820 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		A801EA78280712E400B4FECD = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +76,12 @@
 		A801EA83280712E400B4FECD /* atte22 */ = {
 			isa = PBXGroup;
 			children = (
+				8C5750AF28071C790011D820 /* Home */,
+				8C5750AE28071C570011D820 /* Survey */,
 				A801EA84280712E400B4FECD /* AppDelegate.swift */,
 				A801EA86280712E400B4FECD /* SceneDelegate.swift */,
 				A801EA88280712E400B4FECD /* ViewController.swift */,
 				A801EA8A280712E400B4FECD /* Main.storyboard */,
-				A8D2DD2B2807178000F1D4EC /* Survey.storyboard */,
-				A8D2DD2D2807188F00F1D4EC /* Survey.swift */,
 				A801EA8D280712E500B4FECD /* Assets.xcassets */,
 				A801EA8F280712E500B4FECD /* LaunchScreen.storyboard */,
 				A801EA92280712E500B4FECD /* Info.plist */,
@@ -302,7 +318,7 @@
 				INFOPLIST_FILE = atte22/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Survey;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +346,7 @@
 				INFOPLIST_FILE = atte22/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Survey;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
