@@ -11,17 +11,10 @@ class ViewController: UIViewController {
 
     
     @IBAction func goSurveyVC(_ sender: Any) {
-//
-//        UIStoryboard * storyboard = UIStoryboard.storyboardWithName:@ "Main" bundle:nil
-//        
-//        CommunityTabBarViewController *communityTabBarViewController = [storyboard instantiateViewControllerWithIdentifier:@"Survey"]
-//                    
-//
-//        [self.navigationController pushViewController:communityTabBarViewController animated:YES]
         guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "Survey") as? Survey else {return}
-        
-        //modal 방식으로 전체화면으로 띄워주기
         nextVC.modalPresentationStyle = .fullScreen
+        present(nextVC, animated: true)
+
     }
     
     

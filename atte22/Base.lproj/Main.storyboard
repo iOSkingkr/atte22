@@ -25,7 +25,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="선물 추천 받기"/>
                                 <connections>
                                     <action selector="goSurveyVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eb6-N2-BkM"/>
-                                    <segue destination="dco-W1-eB5" kind="modal" id="VYE-ee-3Sj"/>
                                 </connections>
                             </button>
                         </subviews>
