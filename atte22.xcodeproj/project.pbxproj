@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2D68BF28086B3B00DA1CA6 /* StartLottieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D68BE28086B3B00DA1CA6 /* StartLottieVC.swift */; };
+		8C2D68C128086C9600DA1CA6 /* 1120-get-started-slider.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D68C028086C9600DA1CA6 /* 1120-get-started-slider.json */; };
 		A801EA85280712E400B4FECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801EA84280712E400B4FECD /* AppDelegate.swift */; };
 		A801EA87280712E400B4FECD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801EA86280712E400B4FECD /* SceneDelegate.swift */; };
 		A801EA89280712E400B4FECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801EA88280712E400B4FECD /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2D68BE28086B3B00DA1CA6 /* StartLottieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartLottieVC.swift; sourceTree = "<group>"; };
+		8C2D68C028086C9600DA1CA6 /* 1120-get-started-slider.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1120-get-started-slider.json"; sourceTree = "<group>"; };
 		A801EA81280712E400B4FECD /* atte22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atte22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A801EA84280712E400B4FECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A801EA86280712E400B4FECD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		8C5750AE28071C570011D820 /* Survey */ = {
 			isa = PBXGroup;
 			children = (
+				8C2D68C028086C9600DA1CA6 /* 1120-get-started-slider.json */,
 			);
 			path = Survey;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 				A801EA86280712E400B4FECD /* SceneDelegate.swift */,
 				A801EA88280712E400B4FECD /* ViewController.swift */,
 				A801EA8A280712E400B4FECD /* Main.storyboard */,
+				8C2D68BE28086B3B00DA1CA6 /* StartLottieVC.swift */,
 				A8D2DD2D2807188F00F1D4EC /* Survey.swift */,
 				A8D2DD2B2807178000F1D4EC /* Survey.storyboard */,
 				A801EA8D280712E500B4FECD /* Assets.xcassets */,
@@ -177,6 +183,7 @@
 				A80883B228084F2900890999 /* GoogleService-Info.plist in Resources */,
 				A8D2DD2C2807178000F1D4EC /* Survey.storyboard in Resources */,
 				A801EA8C280712E400B4FECD /* Main.storyboard in Resources */,
+				8C2D68C128086C9600DA1CA6 /* 1120-get-started-slider.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A801EA89280712E400B4FECD /* ViewController.swift in Sources */,
+				8C2D68BF28086B3B00DA1CA6 /* StartLottieVC.swift in Sources */,
 				A8D2DD2E2807188F00F1D4EC /* Survey.swift in Sources */,
 				A801EA85280712E400B4FECD /* AppDelegate.swift in Sources */,
 				A801EA87280712E400B4FECD /* SceneDelegate.swift in Sources */,
