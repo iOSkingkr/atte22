@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="35" y="77"/>
         </scene>
-        <!--SurveyVC-->
+        <!--NavigationVC-->
         <scene sceneID="hYP-zz-Ilt">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="SurveyVC" storyboardName="Survey" referencedIdentifier="SurveyVC" id="dco-W1-eB5" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="NavigationVC" storyboardName="Survey" referencedIdentifier="NavigationVC" id="dco-W1-eB5" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="At0-Kp-faw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="789" y="-116"/>

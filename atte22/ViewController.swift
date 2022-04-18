@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func goSurveyVC(_ sender: Any) {
-        guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "SurveyVC") as? SurveyVC else {return}
+        guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "NavigationVC") as? NavigationVC else {return}
         nextVC.modalPresentationStyle = .fullScreen
         present(nextVC, animated: true)
 

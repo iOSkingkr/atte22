@@ -9,25 +9,22 @@ import UIKit
 
 class SurveyVC: UIViewController {
 
-    @IBAction func goTest(_ sender: Any) {
-        guard let goSurveyOneView = self.storyboard?.instantiateViewController(identifier: "testVC") as? testVC else { return }
-        self.navigationController?.pushViewController(goSurveyOneView, animated: true)
-    }
-    //    @IBOutlet var btnFindGift: UIButton!
+
+    @IBOutlet var btnFindGift: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        btnFindGift.layer.cornerRadius = 25
+        btnFindGift.layer.cornerRadius = 25
 
         // Do any additional setup after loading the view.
     }
     
-//    @IBAction func btnClick(_ sender: Any) {
-//        // 버튼 클릭시 SurveyOneVC로 이동
-//        guard let nextPage = self.storyboard?.instantiateViewController(identifier: "SurveyOneVC") as? SurveyOneVC else { return }
-//        self.navigationController?.pushViewController(nextPage, animated: true)
-//
-//    }
+    @IBAction func btnClick(_ sender: Any) {
+        // 버튼 클릭시 SurveyOneVC로 이동
+        guard let nextPage = self.storyboard?.instantiateViewController(identifier: "SurveyOneVC") as? SurveyOneVC else { return }
+        self.navigationController?.pushViewController(nextPage, animated: true)
+
+    }
 
     /*
     // MARK: - Navigation

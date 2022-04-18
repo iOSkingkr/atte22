@@ -1,5 +1,5 @@
 //
-//  testVC.swift
+//  NavigationVC.swift
 //  atte22
 //
 //  Created by 이재희 on 2022/04/18.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class testVC: UIViewController {
+class NavigationVC: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
