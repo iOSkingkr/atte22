@@ -1,13 +1,13 @@
 //
-//  Survey.swift
+//  testVC.swift
 //  atte22
 //
-//  Created by 이재희 on 2022/04/13.
+//  Created by 이재희 on 2022/04/18.
 //
 
 import UIKit
 
-class Survey: UIViewController {
+class testVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
